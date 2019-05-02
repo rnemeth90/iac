@@ -5,7 +5,7 @@ configuration SQLServerPrepareDsc
         [Parameter(Mandatory)]
         [String]$DomainName,
 
-		[String]$DomainNetbiosName=(Get-NetBIOSName -DomainName $DomainName),
+		[String]$DomainNetbiosName="vibe",
 
         [Parameter(Mandatory)]
         [System.Management.Automation.PSCredential]$Admincreds,
