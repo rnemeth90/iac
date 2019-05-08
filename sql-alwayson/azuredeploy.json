@@ -18,14 +18,14 @@
     },
     "adminUsername": {
       "type": "string",
-      "defaultValue": "EnterpriseAdmin"
+      "defaultValue": "AzureAdmin"
     },
     "adminPassword": {
       "type": "securestring"
     },
     "domainName": {
       "type": "string",
-      "defaultValue": "devnet.contoso.us"
+      "defaultValue": "corp.vibehcm.com"
     },
     "sqlVmSize": {
       "type": "string",
